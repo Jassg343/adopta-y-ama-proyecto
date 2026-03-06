@@ -111,7 +111,7 @@
               </p>
             </div>
           </div>
-          <!--aqui ponemos la etiqueta para elbton-->+
+          <!--aqui ponemos la etiqueta para elbton-->
           <br />
           <br />
           <div class="divBoton">
@@ -145,101 +145,98 @@
             <h2>Formulario de Adopcion</h2>
           </div>
           <div id="content_form">
-            <form action="" class="forms">
-              <p>
-                <label for="nombreCompleto">
-                    <strong>Nombre completo:</strong>
-                   <input type="text" id="nombreApellido" />
+           <form action="" class="forms">
+            <p>
+              <label for="nombreApellido">
+                <strong>Nombre completo:</strong>
+                <input type="text" id="nombreApellido" name="nombreApellido" />
+              </label>
+            </p>
+            <p>
+              <label for="correo">
+                <strong>Direccion de correo electronico:</strong>
+                <input type="email" id="correo" name="correo" />
+              </label>
+            </p>
+            <p>
+              <label for="edad">
+                <strong>Edad:</strong>
+                <input type="number" id="edad" name="edad" />
+              </label>
+            </p>
+            <p>
+              <label for="numtelefono">
+                <strong>Numero de Telefono:</strong>
+                <input type="tel" id="numtelefono" name="numtelefono" />
+              </label>
+            </p>
+            <p>
+              <label for="direccion">
+                <strong>Dirección:</strong>
+                <input type="text" id="direccion" name="direccion" placeholder="Provincia, ciudad, barrio..." />
+              </label>
+             </p>
+             <p>
+                <label for="dog">
+                  <strong>Selecciona a tu nuevo amigo:</strong>
+                    <select id="dog" name="dog">
+                      <option value="" disabled selected>--- Elegir mascota ---</option>
+                      <option value="julian">Julian (Perro)</option>
+                      <option value="bupi">Bupi (Perro)</option>
+                      <option value="micha">Micha (Gato)</option>
+                      <option value="mango">Mango (Gato)</option>
+                      <option value="otro">Aún no me decido</option>
+                    </select>
                 </label>
-              </p>
-              <p>
-                <label for="correo"><strong> Direccion de correo electronico:</strong>
-                 
-                  <input type="text" id="correo"
-                /></label>
-              </p>
-              <p>
-                <label for="edad"><strong>Edad:</strong>
-                     <input type="number" id="edad"
-                /></label>
-              </p>
-              <p>
-                <label for="numtelefono"><strong>Numero de Telefono:</strong>
-                     <input type="number" id="numtelefono"
-                /></label>
-              </p>
-              <p>
-                <label for="direccion"> <strong>Direccion:</strong>
-                     <input type="number" id="numtelefono"
-                /></label>
-              </p>
-              <p>
-                <label for="dog" ><strong>
-                    Selecciona el perro que te gustaría adoptar:</strong><input
-                    type="text"
-                    id="dog"
-                /></label>
-              </p>
-              <p>
-                <label for="dog"><strong>
-                    ¿Qué te hace sentir que este perro es adecuado para
-                  ti?:</strong><input type="text" id="dog2"
-                /></label>
-              </p>
-              <p>
-                <label for="dog"><strong>
-                    ¿Usted o alguien que conoce ya tiene una mascota adoptada por
-                  nosotros?:</strong> <input type="text" id="dog3"
-                /></label>
-              </p>
-              <p>
-                <label for="dog" class="checkbox"><strong>
-                    ¿Estarías dispuesto a adoptar un perro diferente si este no
-                  está disponible:</strong> <input type="checkbox" id="dog4"
-                /></label>
-              </p>
-              <p>
-                <label for="dog"> <strong>
-                    ¿Cuáles son sus motivos para adoptar? :</strong><input
-                    type="text"
-                    id="dog3"
-                /></label>
-              </p>
-              <p>
-                <label for="dog"><strong>
-                    ¿ya no pudieras quedarte con el perro, ¿qué harías? :</strong>
-                    <input
-                    type="text"
-                    id="dog3"
-                /></label>
-              </p>
-              <div class="how_to_adopt_itemt2">
-                <div class="title_adopt2">
-                  <h3>
-                    <strong>Acuerdo y reconocimiento</strong>
-                  </h3>
-                </div>
-                <div class="paragraph_adopt2">
-                  <p>
-                    <strong>
-                      Entiendo que se debe pagar una cuota de adopción de
-                      ₡25.000 para nacionales (₡75.000 para extranjeros) por
-                      cada gato/gatito, si la adopción es aprobada. * ‍
-                      Reconozco que esta tarifa de adopción no cubre todos los
-                      costos de rescate y cuidado del animal. Entiendo que el
-                      transporte del perro/cachorro después de la adopción no
-                      está incluido en la tarifa de adopción. * ¿Entiendo que
-                      adoptar un perro/cachorro es un compromiso a largo plazo
-                      (hasta más de 10 años)?
-                    </strong>
-                  </p>
-                  <p>
-                    <label for="dog" class="checkbox" ><strong>
-                        Estas de acuerdo?:</strong> <input type="checkbox" id="dog5"
-                    /></label>
-                  </p>
-                </div>
-              </div>
+            </p>
+            <p>
+              <label for="dog2">
+                <strong>¿Qué te hace sentir que este perro es adecuado para ti?:</strong>
+                  <input type="text" id="dog2" name="dog2" />
+              </label>
+            </p>
+            <p>
+              <label for="dog3">
+                <strong>¿Usted o alguien que conoce ya tiene una mascota adoptada por nosotros?:</strong> <input type="text" id="dog3" name="dog3" />
+              </label>
+          </p>
+          <p>
+            <label for="dog4" class="checkbox">
+              <strong>¿Estarías dispuesto a adoptar un perro diferente si este no está disponible:</strong> 
+              <input type="checkbox" id="dog4" name="dog4" />
+            </label>
+        </p>
+        <p>
+          <label for="motivos">
+            <strong>¿Cuáles son sus motivos para adoptar? :</strong>
+            <input type="text" id="motivos" name="motivos" />
+          </label>
+        </p>
+        <p>
+          <label for="emergencia">
+             <strong>¿ya no pudieras quedarte con el perro, ¿qué harías? :</strong>
+              <input type="text" id="emergencia" name="emergencia" />
+         </label>
+       </p>
+
+    <div class="how_to_adopt_itemt2">
+      <div class="title_adopt2">
+        <h3><strong>Acuerdo y reconocimiento</strong></h3>
+      </div>
+      <div class="paragraph_adopt2">
+        <p>
+          <strong>
+            Entiendo que se debe pagar una cuota de adopción de ₡25.000 para nacionales (₡75.000 para extranjeros) por cada gato/gatito, si la adopción es aprobada. * ‍ Reconozco que esta tarifa de adopción no cubre todos los costos de rescate y cuidado del animal. Entiendo que el transporte del perro/cachorro después de la adopción no está incluido en la tarifa de adopción. * ¿Entiendo que adoptar un perro/cachorro es un compromiso a largo plazo (hasta más de 10 años)?
+          </strong>
+        </p>
+        <p>
+          <label for="dog5" class="checkbox">
+            <strong>Estas de acuerdo?:</strong> 
+            <input type="checkbox" id="dog5" name="dog5" />
+          </label>
+        </p>
+      </div>
+    </div>
               <div class="divBoton">
                 <button type="submit" class="boton">Enviar</button>
 

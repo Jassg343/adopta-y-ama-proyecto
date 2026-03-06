@@ -441,14 +441,16 @@ label{
     font-size: 14px;
     font-weight: 500;
 }
-input{
-    
+
+input, select {
     width: 100%;
     padding: 12px;
     border: 2px solid #ddd;
     border-radius: 6px;
     font-size: 14px;
-   
+    background-color: white; /* Para que la lista no se vea gris */
+    color: #231942; /* Para que el texto sea del morado oscuro */
+    font-family: "Trebuchet MS", sans-serif;
 }
 .checkbox{
     display: flex;
