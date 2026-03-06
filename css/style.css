@@ -460,10 +460,16 @@ input, select {
 }
 .how_to_adopt_itemt2 {
   letter-spacing: 0;
-  font-size: clamp(1rem, 0vw, 3rem);
+  font-size: 1rem; 
   background-color: #3A2870;
-  padding: 15px;
-  border-radius: 15px ;
+  padding: 30px 20px; 
+  border-radius: 15px;
+
+  height: auto;      
+  min-height: min-content; 
+  display: block;     
+  overflow: hidden; 
+  margin-bottom: 30px;  
 }
 .title_adopt2 h3{
     padding: 20px;
@@ -473,11 +479,11 @@ input, select {
      font-size: clamp(2rem, 2vw, 5rem);
 
 }
-.paragraph_adopt2{
-    padding: 20px;
-    text-align: center;
-    line-height: 1.5;
-    color: white;
+.paragraph_adopt2 {
+  padding: 10px;      
+  text-align: left;   
+  line-height: 1.6;   
+  color: white;
 }
 
 
